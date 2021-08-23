@@ -10,7 +10,7 @@ summaryLength = "20"
 # google analytics
 googleAnalytics = "G-S0MXF6F38B" # example : UA-123-45
 # disqus short name
-disqusShortname = "" # get your shortname form here : https://disqus.com
+disqusShortname = "onpoint-tech-blog" # get your shortname form here : https://disqus.com
 
 ############################# Modules ##############################
 [module.hugoVersion]
