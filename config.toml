@@ -8,7 +8,7 @@ paginate = "7"
 # post excerpt
 summaryLength = "20"
 # google analytics
-googleAnalytics = "" # example : UA-123-45
+googleAnalytics = "G-S0MXF6F38B" # example : UA-123-45
 # disqus short name
 disqusShortname = "" # get your shortname form here : https://disqus.com
 
