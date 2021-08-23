@@ -1,3 +1,4 @@
 demo/client/*
 .DS_Store
 public/
+resource/_gen
