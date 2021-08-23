@@ -26,4 +26,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          # cname: lwruan.com
+          cname: techblog.onpoint.vn
