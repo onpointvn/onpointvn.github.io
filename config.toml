@@ -1,4 +1,4 @@
-baseURL = 'https://onpointvn.github.io/'
+baseURL = 'https://techblog.onpoint.vn/'
 languageCode = 'en-us'
 title = 'OnPoint Tech Blog'
 theme = 'bookworm'
