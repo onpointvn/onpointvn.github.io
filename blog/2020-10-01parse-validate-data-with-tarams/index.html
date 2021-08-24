@@ -96,7 +96,8 @@
 <div class="mb-5 text-center">
 <img loading=lazy class="img-fluid rounded" src=https://techblog.onpoint.vn/img/tarams-parse.png alt="Image not Found">
 </div>
-<div class=content><p>Yêu cầu chuẩn hoá và validate các tham số truyền lên từ client là yêu cầu cơ bản khi xây dựng API Web. Mình đã có một bài hướng dẫn sử dụng Ecto.Changeset để chuẩn hoá trong bài viết này:</p>
+<div class=content><p>**Version mới của thư viện <code>Tarams</code> không tương thích với bản cũ. Các bạn đọc bài mới ở đây nhé <a href=/blog/2021-08-14-validate-request-params-with-phoenix>How to validate request params in Phoenix</a></p>
+<p>Yêu cầu chuẩn hoá và validate các tham số truyền lên từ client là yêu cầu cơ bản khi xây dựng API Web. Mình đã có một bài hướng dẫn sử dụng Ecto.Changeset để chuẩn hoá trong bài viết này:</p>
 <p><a href=https://dev.to/bluzky/parse-va-validate-request-param-trong-phoenix-v-i-ecto-151a>Parse và validate request param trong Phoenix với Ecto </a></p>
 <p>Trong bài viết này, mình sẽ hướng dẫn một cách ngắn và đơn giản hơn bằng cách sử dụng thư viện sẵn có <a href=https://github.com/bluzky/tarams/>Tarams</a>. Thư viện này thực ra là sử dụng lại <code>Ecto.Changeset</code> nhưng nó giúp cho chúng ta không phải lặp lại quá nhiều code như khi dùng <code>Ecto.Changeset</code></p>
 <p>Một vài tính năng thú vị của Tarams:</p>
@@ -306,8 +307,8 @@ Chỉ cho phép một số các tham số xác định được truyền vào. �
 </article>
 </div>
 <div class=col-md-6><article class="card post-card">
-<a href=https://techblog.onpoint.vn/blog/2021-06-30-elixir-for-beginner-all-you-need-to-know-about-guard/>
-<img loading=lazy class="w-100 rounded" src=https://techblog.onpoint.vn/img/elixir-guard.webp alt="Elixir for Beginner - All you need to know about guard">
+<a href=https://techblog.onpoint.vn/blog/2021-08-20-encrypt-data-with-ecto/>
+<img loading=lazy class="w-100 rounded" src=https://techblog.onpoint.vn/img/encrypt-data-ecto.png alt="How to encrypt your data with Ecto">
 </a>
 <div class=card-body>
 <ul class="card-meta list-inline mb-2">
@@ -318,15 +319,14 @@ Chỉ cho phép một số các tham số xác định được truyền vào. �
 </a>
 </li>
 <li class="list-inline-item mb-2">
-<span>30 Jun, 2021</span>
+<span>20 Aug, 2021</span>
 </li>
 </ul>
 <h3 class=mb-3>
-<a class=post-title href=https://techblog.onpoint.vn/blog/2021-06-30-elixir-for-beginner-all-you-need-to-know-about-guard/>Elixir for Beginner - All you need to know about guard</a>
+<a class=post-title href=https://techblog.onpoint.vn/blog/2021-08-20-encrypt-data-with-ecto/>How to encrypt your data with Ecto</a>
 </h3>
-<p>What is Guard in Elixir In previous post, I explain what is Pattern Matching and how to use it.
-Elixir pattern matching in a nutshell
-Pattern matching …</p>
+<p>If your data is encrypted, even if it&amp;rsquo;s leaked, no one know what is the data. That&amp;rsquo;s great.
+In this post, I&amp;rsquo;m going to show you how …</p>
 <ul class="card-meta list-inline">
 <li class="list-inline-item mb-2">
 <ul class="card-meta-tag list-inline">
@@ -334,7 +334,10 @@ Pattern matching …</p>
 <a href=https://techblog.onpoint.vn/tags/elixir>elixir</a>
 </li>
 <li class="list-inline-item tag">
-<a href=https://techblog.onpoint.vn/tags/elixir-beginner>elixir-beginner</a>
+<a href=https://techblog.onpoint.vn/tags/ecto>ecto</a>
+</li>
+<li class="list-inline-item tag">
+<a href=https://techblog.onpoint.vn/tags/crypto>crypto</a>
 </li>
 </ul>
 </li>
