@@ -44,7 +44,7 @@
 <a class=nav-link href=https://techblog.onpoint.vn/about>About us</a>
 </li>
 <li class=nav-item>
-<a class=nav-link href=https://techblog.onpoint.vn/we-are-hiring>We are hiring</a>
+<a class=nav-link href=https://www.onpoint.vn/careers/>We are hiring</a>
 </li>
 </ul>
 <div class="navbar-right d-none d-lg-inline-block">
@@ -186,7 +186,7 @@
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">6</span>    })
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">7</span> <span style=color:#ff79c6>end</span>
 </code></pre></div><p>It requires that author must be loaded, if not, you will get this error</p>
-<pre><code>** (KeyError) key :id not found in: #Ecto.Association.NotLoaded&lt;association :author is not loaded&gt;
+<pre tabindex=0><code>** (KeyError) key :id not found in: #Ecto.Association.NotLoaded&lt;association :author is not loaded&gt;
 </code></pre><p>You can handle it by pattern matching against <code>Ecto.Association.NotLoaded</code></p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-elixir data-lang=elixir><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1</span> <span style=color:#8be9fd;font-style:italic>def</span> render(<span style=color:#f1fa8c>&#34;post.json&#34;</span>, %{<span style=color:#f1fa8c>post</span>: post}) <span style=color:#ff79c6>do</span>
 <span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2</span>    post
@@ -389,15 +389,6 @@ If you want to use render hook, take a look at my github for full code</p>
 <div class="row justify-content-center">
 <div class=col-md-12>
 <div class="row mt-3">
-<div id=disqus_thread class=w-100></div>
-</div>
-</div>
-</div>
-</div>
-<div class=single-post-similer>
-<div class="row justify-content-center">
-<div class=col-md-12>
-<div class="row mt-3">
 <div class=col-12>
 <h3 class="text-dark font-weight-800 mb-4 pb-2">
 You May Also Like
@@ -516,8 +507,5 @@ Blog by OnPoint Team. Theme by <a href=https://gethugothemes.com/>Gethugothemes<
 </footer>
 <script src=https://unpkg.com/eva-icons></script>
 <script data-turbolinks-suppress-warning src=/js/vendor.min.e8b43a49809453b05c67c402f4ef9f014ea047b1e351a77943c2f08c978e06e6dd1eb7279560628d119926cab96a55a422c55b47fa351500c8c2fe5e59a26234.js></script>
-<script>(function(){var a=document,b=a.createElement("script");b.src="https://onpoint-tech-blog.disqus.com/embed.js",b.setAttribute("data-timestamp",+new Date),(a.head||a.body).appendChild(b)})()</script>
-<noscript>Please enable JavaScript to view the
-<a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
 </body>
 </html>
