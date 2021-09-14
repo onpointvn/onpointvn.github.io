@@ -10,7 +10,7 @@ summaryLength = "20"
 # google analytics
 googleAnalytics = "G-S0MXF6F38B" # example : UA-123-45
 # disqus short name
-disqusShortname = "onpoint-tech-blog" # get your shortname form here : https://disqus.com
+disqusShortname = "" # get your shortname form here : https://disqus.com
 
 ############################# Modules ##############################
 [module.hugoVersion]
@@ -132,7 +132,7 @@ name = "About us"
 
 [[menu.main]]
 weight = 4
-url = "we-are-hiring"
+url = "https://www.onpoint.vn/careers/"
 name = "We are hiring"
 
 # [[menu.main]]
